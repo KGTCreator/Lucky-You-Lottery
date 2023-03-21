@@ -1,0 +1,16 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: green;
+}
+
+#jumbo {  
+    background-image:url('https://c4.wallpaperflare.com/wallpaper/875/237/169/four-leaf-clover-wallpaper-preview.jpg');  
+    background-repeat:no-repeat;  
+    background-size: cover;
+    background-position: center;
+    width:100%;  
+    }  
