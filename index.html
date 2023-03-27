@@ -68,21 +68,14 @@
     <h2>Entry Form:</h2>
     <form>
   <div class="row mb-3">
-    <label for="inputFirstName3" class="col-sm-2 col-form-label">First Name</label>
+    <label for="inputFirstName3" class="col-sm-2 col-form-label">First And Last Name:</label>
     <div class="col-sm-10">
       <input type="email" class="form-control" id="inputFirstName3" onfocus="clearName();"
 					onblur="resetName();">
     </div>
   </div>
-  <div class="row mb-3">
-    <label for="inputLastName3" class="col-sm-2 col-form-label">Last Name</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputLastName3" onfocus="clearName();"
-					onblur="resetName();">
-    </div>
-  </div>
   <fieldset class="row mb-3">
-    <legend class="col-form-label col-sm-2 pt-0">Gender</legend>
+    <legend class="col-form-label col-sm-2 pt-0">Gender:</legend>
     <div class="col-sm-10">
       <div class="form-check">
         <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
@@ -96,7 +89,26 @@
           Female
         </label>
       </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+        <label class="form-check-label" for="gridRadios3">
+         Non-Binary
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios4" value="option4">
+        <label class="form-check-label" for="gridRadios4">
+         Rather Not Specify
+        </label>
+      </div>
     </div>
+    <div class="row mb-3">
+    <label for="inputFirstName3" class="col-sm-2 col-form-label">Message to be read when you win:</label>
+    <div class="col-sm-10">
+      <input type="email" class="form-control" id="inputFirstName3" onfocus="clearName();"
+					onblur="resetName();">
+    </div>
+  </div>
   </fieldset>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
@@ -122,7 +134,7 @@
     <h4>Website: You're literally here right now.</h4>
     </div>
     <hr>
-    <h6>(c) KGT Studios
+    <h6>(c) KGT Studios - All Rights Reserved</h6>
 
       <script src="script.js"></script>
 
